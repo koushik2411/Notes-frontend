@@ -27,7 +27,7 @@ export default function Signup() {
     };
 
     return (
-        <div className=" w-full min-h-screen flex flex-col gap-3 items-center justify-center bg-slate-200 dark:bg-slate-900 dark:text-slate-100">
+        <div className=" w-full min-h-screen flex flex-col gap-3 items-center justify-center bg-slate-200 text-slate-900 dark:bg-slate-900 dark:text-slate-100">
         <div><GiArchiveRegister className=" text-9xl"/></div>
             <form onSubmit={handleSignup} className=" flex flex-col gap-7">
                 <div className=" flex flex-col gap-1">
